@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+<rect width="800" height="400" fill="#e5f0ff"/><rect x="50" y="150" width="700" height="180" fill="#ffffff" stroke="#0b5ed7" stroke-width="4" rx="12"/>
+<rect x="80" y="180" width="80" height="120" fill="#cfe3ff"/><rect x="200" y="180" width="80" height="120" fill="#cfe3ff"/>
+<rect x="320" y="180" width="80" height="120" fill="#cfe3ff"/><rect x="440" y="180" width="80" height="120" fill="#cfe3ff"/>
+<rect x="560" y="180" width="80" height="120" fill="#cfe3ff"/><rect x="680" y="180" width="40" height="120" fill="#cfe3ff"/>
+<text x="400" y="120" text-anchor="middle" font-size="28" font-family="Segoe UI" fill="#0b5ed7" font-weight="700">Central Library</text>
+</svg>
