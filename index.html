@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIT - Home</title><link rel="stylesheet" href="css/style.css">
+</head><body>
+
+<header class="site-header">
+  <div class="container" style="display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap">
+    <div class="brand">
+      <img src="images/logo.svg" alt="SIT Logo"/>
+      <div>
+        <div class="title">Starlight Institute of Technology</div>
+        <div class="tagline">“Innovating Minds, Inspiring Futures”</div>
+      </div>
+    </div>
+    <div class="badges">
+      <span class="badge">NAAC A+</span>
+      <span class="badge">AICTE Approved</span>
+      <span class="badge">25 Research Labs</span>
+    </div>
+  </div>
+</header>
+<nav class="site-nav">
+  <div class="container nav-wrap">
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="about.html">About Us</a>
+    <a class="nav-link" href="admissions.html">Admissions</a>
+    <a class="nav-link" href="academics.html">Academics</a>
+    <a class="nav-link" href="studentlife.html">Student Life</a>
+    <a class="nav-link" href="news.html">News & Events</a>
+    <a class="nav-link" href="notices.html">Notices & Circulars</a>
+    <a class="nav-link" href="placements.html">Placements</a>
+    <a class="nav-link" href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<section class="container">
+  <div class="hero">
+    <div class="card">
+      <h1>Welcome to SIT</h1>
+      <p class="lead">A vibrant campus, industry-driven curriculum, and global opportunities—SIT empowers students to pursue excellence in engineering, management, and research.</p>
+      <img src="images/campus.svg" alt="SIT Campus" style="width:100%;border-radius:12px;margin:1rem 0" />
+      <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+        <a class="btn" href="admissions.html">Apply Now</a>
+        <a class="btn outline" href="academics.html">Explore Academics</a>
+      </div>
+    </div>
+    <div class="announce">
+      <div class="ticker"><span class="dot"></span> Admissions open for AY 2025–26 • Entrance Test on 15 June 2025</div>
+      <div class="carousel" aria-label="Announcements">
+        <div class="slide active">Innovision 2025 • 20–22 March • Tech fest registrations live</div>
+        <div class="slide">UGC-approved new PG programs in Data Science & AI</div>
+        <div class="slide">MoU signed with Infosys for internship pipeline</div>
+      </div>
+      <div class="card">
+        <h3>Why SIT?</h3>
+        <ul class="check">
+          <li>Outcome-based curriculum aligned with NEP 2020</li>
+          <li>Centres of Excellence in AI, IoT, and Renewable Energy</li>
+          <li>Strong placement ecosystem with 100+ recruiters</li>
+          <li>Scholarships for merit and need-based students</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <h2>Quick Links</h2>
+  <div class="grid grid-3">
+    <div class="card"><h3>Admissions 2025</h3><p>Check eligibility, important dates, and application process.</p><a class="btn" href="admissions.html">View Admissions</a></div>
+    <div class="card"><h3>Academic Calendar</h3><p>Semester schedule, holidays, exam windows, and events.</p><a class="btn" href="academics.html#calendar">View Calendar</a></div>
+    <div class="card"><h3>Notices & Circulars</h3><p>Latest academic and administrative notifications.</p><a class="btn" href="notices.html">View Notices</a></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div>
+      <h4>About SIT</h4>
+      <p>Founded in 1987, Starlight Institute of Technology (SIT) is a premier higher-education institution offering undergraduate to doctoral programs across engineering, management, and sciences.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul class="info-list">
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="notices.html">Notices</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <ul class="info-list">
+        <li><span class="label">Email</span> info@sit.edu</li>
+        <li><span class="label">Phone</span> +91-91234-56780</li>
+        <li><span class="label">Address</span> Knowledge Park, City – 123456</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <div>© <span id="year"></span> Starlight Institute of Technology</div>
+    <div><a href="#">Privacy Policy</a> • <a href="#">Terms</a> • <a href="#">Sitemap</a></div>
+  </div>
+</footer>
+<button id="backTop" class="btn" style="position:fixed;right:18px;bottom:18px;display:none">↑ Back to Top</button>
+<script src="js/script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+
+</body></html>

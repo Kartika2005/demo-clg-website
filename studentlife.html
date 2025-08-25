@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIT - Student Life</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="site-header">
+  <div class="container" style="display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap">
+    <div class="brand">
+      <img src="images/logo.svg" alt="SIT Logo"/>
+      <div>
+        <div class="title">Starlight Institute of Technology</div>
+        <div class="tagline">“Innovating Minds, Inspiring Futures”</div>
+      </div>
+    </div>
+    <div class="badges">
+      <span class="badge">NAAC A+</span>
+      <span class="badge">AICTE Approved</span>
+      <span class="badge">25 Research Labs</span>
+    </div>
+  </div>
+</header>
+<nav class="site-nav">
+  <div class="container nav-wrap">
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="about.html">About Us</a>
+    <a class="nav-link" href="admissions.html">Admissions</a>
+    <a class="nav-link" href="academics.html">Academics</a>
+    <a class="nav-link" href="studentlife.html">Student Life</a>
+    <a class="nav-link" href="news.html">News & Events</a>
+    <a class="nav-link" href="notices.html">Notices & Circulars</a>
+    <a class="nav-link" href="placements.html">Placements</a>
+    <a class="nav-link" href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<section class="container">
+  <h2>Hostel & Accommodation</h2>
+  <p>Boys: 4 hostels • Girls: 2 hostels • Mess, laundry, and 24x7 security.</p>
+</section>
+<section class="container">
+  <h2>Sports & Recreation</h2>
+  <ul class="check"><li>Cricket ground, football field, basketball & badminton courts</li><li>Gymnasium & indoor games arena</li></ul>
+</section>
+<section class="container">
+  <h2>Clubs & Societies</h2>
+  <div class="grid grid-3">
+    <div class="card"><h3>Coding Club</h3><p>Weekly DSA sessions and hackathon prep.</p></div>
+    <div class="card"><h3>Robotics Society</h3><p>Line follower, drone builds, and competitions.</p></div>
+    <div class="card"><h3>Drama & Music</h3><p>Annual productions, open mics, and band nights.</p></div>
+  </div>
+</section>
+<section class="container">
+  <h2>Counseling & Support</h2>
+  <p>Academic mentoring, placement guidance, and professional counseling services available on appointment.</p>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div>
+      <h4>About SIT</h4>
+      <p>Founded in 1987, Starlight Institute of Technology (SIT) is a premier higher-education institution offering undergraduate to doctoral programs across engineering, management, and sciences.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul class="info-list">
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="notices.html">Notices</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <ul class="info-list">
+        <li><span class="label">Email</span> info@sit.edu</li>
+        <li><span class="label">Phone</span> +91-91234-56780</li>
+        <li><span class="label">Address</span> Knowledge Park, City – 123456</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <div>© <span id="year"></span> Starlight Institute of Technology</div>
+    <div><a href="#">Privacy Policy</a> • <a href="#">Terms</a> • <a href="#">Sitemap</a></div>
+  </div>
+</footer>
+<button id="backTop" class="btn" style="position:fixed;right:18px;bottom:18px;display:none">↑ Back to Top</button>
+<script src="js/script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body></html>

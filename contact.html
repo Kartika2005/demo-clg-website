@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIT - Contact Us</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="site-header">
+  <div class="container" style="display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap">
+    <div class="brand">
+      <img src="images/logo.svg" alt="SIT Logo"/>
+      <div>
+        <div class="title">Starlight Institute of Technology</div>
+        <div class="tagline">“Innovating Minds, Inspiring Futures”</div>
+      </div>
+    </div>
+    <div class="badges">
+      <span class="badge">NAAC A+</span>
+      <span class="badge">AICTE Approved</span>
+      <span class="badge">25 Research Labs</span>
+    </div>
+  </div>
+</header>
+<nav class="site-nav">
+  <div class="container nav-wrap">
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="about.html">About Us</a>
+    <a class="nav-link" href="admissions.html">Admissions</a>
+    <a class="nav-link" href="academics.html">Academics</a>
+    <a class="nav-link" href="studentlife.html">Student Life</a>
+    <a class="nav-link" href="news.html">News & Events</a>
+    <a class="nav-link" href="notices.html">Notices & Circulars</a>
+    <a class="nav-link" href="placements.html">Placements</a>
+    <a class="nav-link" href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<section class="container">
+  <h2>Contact Us</h2>
+  <div class="contact-wrap">
+    <div class="card">
+      <h3>Campus Office</h3>
+      <ul class="info-list">
+        <li><span class="label">Address</span>Knowledge Park, City – 123456</li>
+        <li><span class="label">General</span>info@sit.edu • +91-91234-56780</li>
+        <li><span class="label">Admissions</span>admissions@sit.edu • +91-98765-43210</li>
+        <li><span class="label">Placements</span>placements@sit.edu • +91-99887-76655</li>
+        <li><span class="label">Office Hours</span>Mon–Fri, 9:30 AM – 5:30 PM</li>
+      </ul>
+      <div style="margin-top:1rem">
+        <iframe src="https://maps.google.com/maps?q=New%20Delhi&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="260" style="border:0;border-radius:12px" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Send an Enquiry</h3>
+      <div id="form-msg" class="alert" aria-live="polite"></div>
+      <form id="contact-form" class="form">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:.9rem">
+          <div><label>Name*</label><input name="name" required></div>
+          <div><label>Email*</label><input name="email" type="email" required></div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:.9rem">
+          <div><label>Phone</label><input name="phone" maxlength="15" placeholder="+91"></div>
+          <div><label>Department</label>
+            <select name="dept">
+              <option>Admissions</option><option>Academics</option><option>Examinations</option><option>Placements</option>
+            </select>
+          </div>
+        </div>
+        <div><label>Message*</label><textarea name="message" rows="5" required></textarea></div>
+        <button class="btn" type="submit">Submit Enquiry</button>
+      </form>
+      <p class="lead" style="margin-top:.6rem">Note: Your enquiry is stored in your browser only for demo purposes.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div>
+      <h4>About SIT</h4>
+      <p>Founded in 1987, Starlight Institute of Technology (SIT) is a premier higher-education institution offering undergraduate to doctoral programs across engineering, management, and sciences.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul class="info-list">
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="notices.html">Notices</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <ul class="info-list">
+        <li><span class="label">Email</span> info@sit.edu</li>
+        <li><span class="label">Phone</span> +91-91234-56780</li>
+        <li><span class="label">Address</span> Knowledge Park, City – 123456</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <div>© <span id="year"></span> Starlight Institute of Technology</div>
+    <div><a href="#">Privacy Policy</a> • <a href="#">Terms</a> • <a href="#">Sitemap</a></div>
+  </div>
+</footer>
+<button id="backTop" class="btn" style="position:fixed;right:18px;bottom:18px;display:none">↑ Back to Top</button>
+<script src="js/script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body></html>
