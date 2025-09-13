@@ -19,7 +19,7 @@ a:hover{text-decoration:underline}
 /* Header / Nav */
 header.site-header{
   background:linear-gradient(90deg,#0b5ed7 0%, #2563eb 50%, #0ea5e9 100%);
-  color:#fff;
+  color:red;
   padding:2.2rem 0 1.6rem;
   position:sticky; top:0; z-index:50;
   box-shadow:var(--shadow);
